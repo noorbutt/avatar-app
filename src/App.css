@@ -1,38 +1,84 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+
+
+.header{
+  background-color: blue;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Footer{
+  background-color: brown;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary{
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.child{
+  /* text-align: center;  */
+ 
+  right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.parent{
+  position: absolute;
+  left: 300px;
+  top: 20px;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Avatarstyle img{
+  width: 200px;
+  height: 200px;
 }
+
+
+
+
+.heading{
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+h1{
+  font-family: 'Sansita Swashed', cursive;
+  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2rem);
+}
+
+
+p{
+  font-family: 'Sansita Swashed', cursive;
+  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2rem);
+}
+
+
+.btn{
+  width: 10rem;
+  height: 3rem;
+  background-color: #c29525;
+  /* border: none; */
+  font-family: 'Muli', serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color:#fff;
+  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2rem);
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4rem);
+  cursor: pointer;
+}
+
+
+
+
+body{
+  background-color: black;
+}
+
+
+
+
+
+
